@@ -1,8 +1,12 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "../Home/Home";
+import NotFound from "../NotFound/NotFound";
 function App() {
   return (
-    <div className="bg-gray-500 flex justify-center items-center h-screen">
-      <p className="text-6xl">Template React Redux Tailwind Vite</p>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/*" element={<NotFound />} />
+    </Routes>
   );
 }
 

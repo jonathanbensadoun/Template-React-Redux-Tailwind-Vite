@@ -10,6 +10,7 @@ Ce modèle est conçu pour accélérer le développement d'applications web en u
 - **Vite 5.3** : Bénéficiez d'un outil de build moderne qui offre un rechargement à chaud ultra-rapide et une optimisation out-of-the-box.
 - **ESLint 8.57** : Assurez-vous que votre code est propre et conforme aux meilleures pratiques grâce à ESLint.
 - **PostCSS 8.4** : Utilisez des plugins PostCSS pour transformer le CSS avec des fonctionnalités avancées comme TailwindCSS.
+- 
 
 ## Prérequis
 
